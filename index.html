@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>CSS Snippet Cheat Sheet</title>
+  </head>
+
+<body>
+    <header>
+        <h1> CSS Snippet Cheat Sheet </h1>
+            <section id="main-text"> Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it will automatically select all of the code for you to copy.</section>
+    </header>
+
+    <div class="snippets">
+     <!-- <div class="grid"> -->
+
+        <section class="card">
+            <header> Flexbox Row</header>
+            <h3> Use these three properties to create a Flexbox row layout.</h3>
+            <pre> 
+                .row { 
+                    display: flex; 
+                    flex-direction: row; 
+                    flex-wrap: wrap; 
+                }
+            </pre>
+            
+        </section>
+  
+
+        <section class="card">
+            <header>Flexbox Column</header>
+            <h3>Use this to create a Flexbox column layout.</h3>
+            <pre>
+                .column {
+                    display: flex;
+                    flex-direction: column;
+                }
+            </pre>  
+              </section>
+
+        <section class = "card">
+            <header>CSS Grid Layout</header>
+            <h3> Build a 12-column layout using CSS Grid. </h3>
+            <pre>
+                .grid {
+                    display: grid;
+                    width: 100%;
+                    grid-template-columns:
+                repeat(12, 1fr);
+                }
+            </pre>
+        </section>
+
+        <section class="card">
+            <header>Linear Gradients</header>
+        </section>
+       
+    </div> 
+   
+</body>
