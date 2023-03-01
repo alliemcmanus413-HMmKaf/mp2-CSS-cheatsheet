@@ -1,23 +1,28 @@
 * {
-    box-sizing: border-box;
-
+  box-sizing: border-box;
 }
 
 html {
-    background-color:rosybrown;
+  background-color: rgb(73, 13, 66);
 }
 
 h1 {
-    color:darkmagenta;
-    width: auto;
-    text-align: center;  
+  color: rgb(186, 60, 186);
+  width: auto;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 #main-text {
-    margin-left: 10%;
-    text-align:center;
-    width: 80%;  
+  margin-left: 10%;
+  text-align: center;
+  width: 80%;
+  color: rgb(237, 220, 220);
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 
 /* .grid {
     display: grid;
@@ -25,41 +30,42 @@ h1 {
     grid-template-columns:minmax(flex);
 } */
 .snippets {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: auto;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color:blanchedalmond;
 }
 
 .card {
-    padding: 10px;
-    border-style: dashed;
-    width: 300px;
-    margin-top: 20px;
-    position: relative;
-    
-    
+  padding: 10px;
+  border-style: dashed;
+  width: 300px;
+  margin-top: 20px;
+  
 }
 
 .card header {
-    position: relative;
-    margin-top: -10%;
-    text-align: center;
-    font-size: 200%;
-    border-style: solid;
-    border-radius: 10px;
-    background-color: rosybrown;
-   
-    
-
+  position: relative;
+  margin-top: -10%;
+  text-align: center;
+  font-size: 200%;
+  border-style: solid;
+  border-radius: 10px;
+  background-color:  rgb(73, 13, 66);
 }
 
 pre {
-   text-align: left;
-   white-space: pre-line;
-    font-family: 'Courier New', 'Courier', monospace, serif;
-    background-color:mediumvioletred;  
-    height: 150px;  
-
+  text-align: left;
+  white-space: pre-line;
+  font-family: "Courier New", "Courier", monospace, serif;
+  height: auto;
+  border-radius: 10px;
+  /* background-color: mediumvioletred; */
+  background-image: linear-gradient(
+    rgba(234, 157, 85, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
 }
+
